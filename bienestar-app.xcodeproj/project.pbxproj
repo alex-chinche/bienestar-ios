@@ -3,25 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F4ED30123E03883004A5575 /* AppDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4ED30023E03883004A5575 /* AppDetailScreen.swift */; };
+		7F4ED30423E04079004A5575 /* HourControllerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4ED30323E04079004A5575 /* HourControllerScreen.swift */; };
+		7F4ED30723E040F1004A5575 /* StatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4ED30623E040F1004A5575 /* StatsScreen.swift */; };
+		7F4ED30A23E04124004A5575 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4ED30923E04124004A5575 /* ProfileScreen.swift */; };
+		7F4ED30D23E04149004A5575 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4ED30C23E04149004A5575 /* MapScreen.swift */; };
+		7FB4DA7023D5A80F00FEF206 /* AppListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4DA6F23D5A80F00FEF206 /* AppListCell.swift */; };
+		7FB4DA7223D5AB0500FEF206 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4DA7123D5AB0500FEF206 /* App.swift */; };
+		7FC057B623C73D5E00823849 /* AppListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC057B523C73D5E00823849 /* AppListScreen.swift */; };
 		7FC9F0A623C5C72500625024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9F0A523C5C72500625024 /* AppDelegate.swift */; };
-		7FC9F0A823C5C72500625024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9F0A723C5C72500625024 /* ViewController.swift */; };
+		7FC9F0A823C5C72500625024 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9F0A723C5C72500625024 /* LoginScreen.swift */; };
 		7FC9F0AB23C5C72500625024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9F0A923C5C72500625024 /* Main.storyboard */; };
 		7FC9F0AD23C5C72700625024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9F0AC23C5C72700625024 /* Assets.xcassets */; };
 		7FC9F0B023C5C72700625024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9F0AE23C5C72700625024 /* LaunchScreen.storyboard */; };
+		B52DEEB1131B461A254DEA09 /* Pods_bienestar_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83809D9B04B1AA1AA9DB437E /* Pods_bienestar_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3951032084DDC2BB9B3B1B /* Pods-bienestar-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bienestar-app.debug.xcconfig"; path = "Target Support Files/Pods-bienestar-app/Pods-bienestar-app.debug.xcconfig"; sourceTree = "<group>"; };
+		7F4ED30023E03883004A5575 /* AppDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailScreen.swift; sourceTree = "<group>"; };
+		7F4ED30323E04079004A5575 /* HourControllerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourControllerScreen.swift; sourceTree = "<group>"; };
+		7F4ED30623E040F1004A5575 /* StatsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsScreen.swift; sourceTree = "<group>"; };
+		7F4ED30923E04124004A5575 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		7F4ED30C23E04149004A5575 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		7FB4DA6F23D5A80F00FEF206 /* AppListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListCell.swift; sourceTree = "<group>"; };
+		7FB4DA7123D5AB0500FEF206 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		7FC057B523C73D5E00823849 /* AppListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListScreen.swift; sourceTree = "<group>"; };
 		7FC9F0A223C5C72500625024 /* bienestar-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bienestar-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC9F0A523C5C72500625024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FC9F0A723C5C72500625024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FC9F0A723C5C72500625024 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		7FC9F0AA23C5C72500625024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FC9F0AC23C5C72700625024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC9F0AF23C5C72700625024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FC9F0B123C5C72700625024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83809D9B04B1AA1AA9DB437E /* Pods_bienestar_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bienestar_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA610B8C6A2130AECDEB012 /* Pods-bienestar-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bienestar-app.release.xcconfig"; path = "Target Support Files/Pods-bienestar-app/Pods-bienestar-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52DEEB1131B461A254DEA09 /* Pods_bienestar_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49AB8AF630A39ED89C765A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C3951032084DDC2BB9B3B1B /* Pods-bienestar-app.debug.xcconfig */,
+				AEA610B8C6A2130AECDEB012 /* Pods-bienestar-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		560A8E6E76317D81B877FD25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83809D9B04B1AA1AA9DB437E /* Pods_bienestar_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F4ED2FD23E03738004A5575 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7FC9F0A723C5C72500625024 /* LoginScreen.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		7F4ED2FE23E03752004A5575 /* AppListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7FB4DA6F23D5A80F00FEF206 /* AppListCell.swift */,
+				7FB4DA7123D5AB0500FEF206 /* App.swift */,
+				7FC057B523C73D5E00823849 /* AppListScreen.swift */,
+			);
+			path = AppListScreen;
+			sourceTree = "<group>";
+		};
+		7F4ED2FF23E03833004A5575 /* AppDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7F4ED30023E03883004A5575 /* AppDetailScreen.swift */,
+			);
+			path = AppDetailScreen;
+			sourceTree = "<group>";
+		};
+		7F4ED30223E0405E004A5575 /* HourControllerScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7F4ED30323E04079004A5575 /* HourControllerScreen.swift */,
+			);
+			path = HourControllerScreen;
+			sourceTree = "<group>";
+		};
+		7F4ED30523E040D9004A5575 /* StatsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7F4ED30623E040F1004A5575 /* StatsScreen.swift */,
+			);
+			path = StatsScreen;
+			sourceTree = "<group>";
+		};
+		7F4ED30823E04111004A5575 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7F4ED30923E04124004A5575 /* ProfileScreen.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		7F4ED30B23E0413A004A5575 /* MapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7F4ED30C23E04149004A5575 /* MapScreen.swift */,
+			);
+			path = MapScreen;
+			sourceTree = "<group>";
+		};
 		7FC9F09923C5C72500625024 = {
 			isa = PBXGroup;
 			children = (
 				7FC9F0A423C5C72500625024 /* bienestar-app */,
 				7FC9F0A323C5C72500625024 /* Products */,
+				49AB8AF630A39ED89C765A39 /* Pods */,
+				560A8E6E76317D81B877FD25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +153,13 @@
 			isa = PBXGroup;
 			children = (
 				7FC9F0A523C5C72500625024 /* AppDelegate.swift */,
-				7FC9F0A723C5C72500625024 /* ViewController.swift */,
+				7F4ED2FD23E03738004A5575 /* LoginScreen */,
+				7F4ED2FE23E03752004A5575 /* AppListScreen */,
+				7F4ED2FF23E03833004A5575 /* AppDetailScreen */,
+				7F4ED30223E0405E004A5575 /* HourControllerScreen */,
+				7F4ED30523E040D9004A5575 /* StatsScreen */,
+				7F4ED30823E04111004A5575 /* ProfileScreen */,
+				7F4ED30B23E0413A004A5575 /* MapScreen */,
 				7FC9F0A923C5C72500625024 /* Main.storyboard */,
 				7FC9F0AC23C5C72700625024 /* Assets.xcassets */,
 				7FC9F0AE23C5C72700625024 /* LaunchScreen.storyboard */,
@@ -71,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FC9F0B423C5C72700625024 /* Build configuration list for PBXNativeTarget "bienestar-app" */;
 			buildPhases = (
+				561C043ACD1E485A28009590 /* [CP] Check Pods Manifest.lock */,
 				7FC9F09E23C5C72500625024 /* Sources */,
 				7FC9F09F23C5C72500625024 /* Frameworks */,
 				7FC9F0A023C5C72500625024 /* Resources */,
+				A33E59A081890B5E295CA41D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +236,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		561C043ACD1E485A28009590 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bienestar-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A33E59A081890B5E295CA41D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bienestar-app/Pods-bienestar-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bienestar-app/Pods-bienestar-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bienestar-app/Pods-bienestar-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FC9F09E23C5C72500625024 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FC9F0A823C5C72500625024 /* ViewController.swift in Sources */,
+				7F4ED30123E03883004A5575 /* AppDetailScreen.swift in Sources */,
+				7FC9F0A823C5C72500625024 /* LoginScreen.swift in Sources */,
+				7F4ED30423E04079004A5575 /* HourControllerScreen.swift in Sources */,
+				7F4ED30723E040F1004A5575 /* StatsScreen.swift in Sources */,
+				7F4ED30D23E04149004A5575 /* MapScreen.swift in Sources */,
+				7F4ED30A23E04124004A5575 /* ProfileScreen.swift in Sources */,
+				7FB4DA7023D5A80F00FEF206 /* AppListCell.swift in Sources */,
+				7FB4DA7223D5AB0500FEF206 /* App.swift in Sources */,
+				7FC057B623C73D5E00823849 /* AppListScreen.swift in Sources */,
 				7FC9F0A623C5C72500625024 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +436,12 @@
 		};
 		7FC9F0B523C5C72700625024 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3951032084DDC2BB9B3B1B /* Pods-bienestar-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "bienestar-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "u.bienestar-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +457,12 @@
 		};
 		7FC9F0B623C5C72700625024 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA610B8C6A2130AECDEB012 /* Pods-bienestar-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "bienestar-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "u.bienestar-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
