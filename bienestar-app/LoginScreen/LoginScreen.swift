@@ -2,6 +2,7 @@
 import UIKit
 import Alamofire
 
+var stringToken: String?
 var userName = ""
 var userEmail = ""
 var userPassword = ""
@@ -12,11 +13,11 @@ var appDataArray: [[String: Any]] = []
 
 class LoginScreen: UIViewController {
     
-    let createUserUrl = "http://localhost:8888/alex/Bienestar-App/public/index.php/api/createUser"
-    let loginUserUrl = "http://localhost:8888/alex/Bienestar-App/public/index.php/api/loginUser"
-    let rememberPasswordUrl = "http://localhost:8888/alex/Bienestar-App/public/index.php/api/rememberPassword"
-    let postAppsUrl = "http://localhost:8888/alex/Bienestar-App/public/index.php/api/showApps"
-    let getAppsUrl = "http://localhost:8888/alex/Bienestar-App/public/index.php/api/getApps"
+    let createUserUrl = "http://localhost:8888/bienestar-app/public/index.php/api/createUser"
+    let loginUserUrl = "http://localhost:8888/bienestar-app/public/index.php/api/loginUser"
+    let rememberPasswordUrl = "http://localhost:8888/bienestar-app/public/index.php/api/rememberPassword"
+    let postAppsUrl = "http://localhost:8888/bienestar-app/public/index.php/api/showApps"
+    let getAppsUrl = "http://localhost:8888/bienestar-app/public/index.php/api/getApps"
     
     override func viewDidLoad() {
         super.viewDidLoad()
