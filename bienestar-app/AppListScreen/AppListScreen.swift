@@ -9,8 +9,6 @@ var iconArray: [String] = []
 class AppListScreen: UIViewController {
     
     let postUsageUrl = "http://localhost:8888/bienestar-app/public/index.php/api/postUseTimes"
-    let getUsageUrl = "http://localhost:8888/bienestar-app/public/index.php/api/getUseTimes"
-    
     
     @IBOutlet weak var welcomeMessage: UILabel!
     @IBOutlet weak var tableView: UITableView!
@@ -19,7 +17,6 @@ class AppListScreen: UIViewController {
     
     override func viewDidLoad() {
         UserDefaults.standard.set(JSONtoken!["token"], forKey: "token")
-        //UserDefaults.standard.value(forKey: "token")
         let file = "usage.csv"
         let directory = FileManager.default.urls(for:
             .documentDirectory, in: .userDomainMask)
@@ -48,7 +45,7 @@ class AppListScreen: UIViewController {
         
         super.viewDidLoad()
         
-        welcomeMessage.text = "Bienvenid@, \n\(userName)"
+        welcomeMessage.text = "Tu lista de apps"
         tableElements = createArray()
         
         tableView.delegate = self as UITableViewDelegate
@@ -67,14 +64,13 @@ class AppListScreen: UIViewController {
             do {
                let data = try Data(contentsOf: stringToUrl)
                let urlToImage = UIImage(data: data)!
-                let appGot: App = App( appId: app["id"] as! Int, appIcon: urlToImage, appName: app["name"] as! String,  appUsedTime: "03:20:34")
+                let appGot: App = App( appId: app["id"] as! Int, appIcon: urlToImage, appName: app["name"] as! String)
                 cellsList.append(appGot)
             }
             catch{
                 print("Image not found")
             }
         }
-        
         return cellsList
     }
 }

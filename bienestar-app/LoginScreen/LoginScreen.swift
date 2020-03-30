@@ -21,6 +21,8 @@ class LoginScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        var homeDir = NSHomeDirectory()
+        print(homeDir)
     }
     
     func showToast(message : String) {
